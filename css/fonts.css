@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/source-sans-pro/SourceSansPro-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/source-sans-pro/SourceSansPro-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../fonts/gilroy-regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/Gilroy-Light.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light.ttf');
+    font-weight: 300;
+}

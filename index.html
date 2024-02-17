@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Tooth</title>
+    
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="body">
+
+    <div class="callback__popup mfp-hide mfp-with-anim" id="callback__popup_ID"> <!-- "mfp-hide" - клас, у плагина "magnific-popup", -->
+        <div class="callback__header">                                           <!-- скрывающий контент в popup со страницы до активации кнопкой. -->
+            <div class="callback__logo">
+                <a href="index.html" class="header__bottom_logo">
+                    <svg class="header__bottom_logo-svg" width="1364" height="1401" viewBox="0 0 1364 1401">
+                        <use href="images/logo.svg#logo_ID">
+                    </svg>
+                    <span class="header__bottom_logo-text-1">Dental Tooth</span>
+                    <div class="header__bottom_logo-blue_line"></div>
+                    <span class="header__bottom_logo-text-2">Клиника</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="callback__body">
+            <div class="form__wrapper">
+
+                <h3 class="form__title">Записаться на прием</h3>
+
+                <form class="wpcf7-form init">
+                    <p><span class="wpcf7-form-control-wrap"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Ваше имя" type="text"></span></p>
+                    <p><span class="wpcf7-form-control-wrap"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-phonemask" placeholder="Ваш телефон" type="text" name="phone"></span></p>
+                    <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Отправить"><span class="wpcf7-spinner"></span></p>
+                </form>
+
+                <p class="form__agree">Нажимая кнопку, я даю свое согласие на обработку моих персональных данных</p>
+            </div>
+        </div>
+
+        <button title="%title%" type="button" class="mfp-close">
+            <svg class="popup__close-svg" width="19" height="19" viewBox="0 0 19 19">
+                <use href="images/icon/close.svg#close_ID"/>
+            </svg>
+        </button>
+    </div>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top_row">
+                    <div class="header__top_location">
+                        <svg class="header__top_location-svg" width="18" height="23" viewBox="0 0 18 23">
+                            <use href="images/icon/location.svg#location_ID">
+                        </svg>
+
+                        <span>ул. Протопского 28А город Алматы</span>
+                    </div>
+
+                    <div class="header__top_right">
+                        <a class="header__top_phone" href="tel:77776544454">
+                            <svg class="header__top_phone-svg" width="16" height="16" viewBox="0 0 16 16">
+                                <use href="images/icon/phone.svg#phone_ID">
+                            </svg>
+
+                            <span>+7 (777) 654 44 54</span>
+                        </a>
+
+                        <a class="header__top_email" href="mailto:info@dentaltooth.kz">
+                            <svg class="header__top_email-svg" width="21" height="16" viewBox="0 0 21 16">
+                                <use href="images/icon/mail.svg#mail_ID">
+                            </svg>
+
+                            <span>info@dentaltooth.kz</span>
+                        </a>
+                    </div>
+
+                    <div class="header__top_social">
+                        <a class="header__top_twitter" href="#">
+                            <svg class="header__top_twitter-svg" width="22" height="22" viewBox="0 0 22 22">
+                                <use href="images/icon/twitter.svg#twitter_ID">
+                            </svg>
+                        </a>
+
+                        <a class="header__top_instagram" href="#">
+                            <svg class="header__top_instagram-svg" width="22" height="22" viewBox="0 0 22 22">
+                                <use href="images/icon/instagram.svg#instagram_ID">
+                            </svg>
+                        </a>
+
+                        <a class="header__top_vk" href="#">
+                            <svg class="header__top_vk-svg" width="22" height="22" viewBox="0 0 22 22">
+                                <use href="images/icon/vk.svg#vk_ID">
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="hamburger-menu_icon">
+                         <div class="hamburger-menu__wrapper_icon"> <!-- hamburger-menu__wrapper--active -->
+                            <div class="hamburger-menu__circle"></div>
+                            <div class="hamburger-menu__circle-2"></div>
+                            <div class="hamburger-menu__line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom_wrapper-row">
+                    <a href="index.html" class="header__bottom_logo">
+                        <svg class="header__bottom_logo-svg" width="1364" height="1401" viewBox="0 0 1364 1401">
+                            <use href="images/logo.svg#logo_ID">
+                        </svg>
+                        <span class="header__bottom_logo-text-1">Dental Tooth</span>
+                        <div class="header__bottom_logo-blue_line"></div>
+                        <span class="header__bottom_logo-text-2">Клиника</span>
+                    </a>
+        
+                    <nav class="header__bottom_menu-nav">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="services.html">Услуги</a></li>
+                            <li><a href="specialists.html">Наши специалисты</a></li>
+                            <li><a href="reviews.html">Отзывы</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+        
+                    <a href="#callback__popup_ID" class="header__bottom_btn" data-effect="mfp-3d-unfold">Получить консультацию</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-menu__header">
+                <p class="mobile-menu__title">Меню</p>
+            </div>
+
+            <div class="mobile-menu__body">
+                <div class="header__top_right">
+                    <a class="header__top_phone" href="tel:77776544454">
+                        <svg class="header__top_phone-svg" width="16" height="16" viewBox="0 0 16 16">
+                            <use href="images/icon/phone.svg#phone_ID">
+                        </svg>
+
+                        <span>+7 (777) 654 44 54</span>
+                    </a>
+
+                    <a class="header__top_email" href="mailto:info@dentaltooth.kz">
+                        <svg class="header__top_email-svg" width="21" height="16" viewBox="0 0 21 16">
+                            <use href="images/icon/mail.svg#mail_ID">
+                        </svg>
+
+                        <span>info@dentaltooth.kz</span>
+                    </a>
+                </div>
+
+                <div class="header__top_social">
+                    <a class="header__top_twitter" href="#">
+                        <svg class="header__top_twitter-svg" width="22" height="22" viewBox="0 0 22 22">
+                            <use href="images/icon/twitter.svg#twitter_ID">
+                        </svg>
+                    </a>
+
+                    <a class="header__top_instagram" href="#">
+                        <svg class="header__top_instagram-svg" width="22" height="22" viewBox="0 0 22 22">
+                            <use href="images/icon/instagram.svg#instagram_ID">
+                        </svg>
+                    </a>
+
+                    <a class="header__top_vk" href="#">
+                        <svg class="header__top_vk-svg" width="22" height="22" viewBox="0 0 22 22">
+                            <use href="images/icon/vk.svg#vk_ID">
+                        </svg>
+                    </a>
+                </div>
+
+                <nav class="header__bottom_menu-nav">
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="specialists.html">Наши специалисты</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="section__banner">
+        <div class="container">
+            <div class="banner__row">
+                <div class="banner__left">
+                    <p class="banner__left-subtitle">Стоматологическая клиника Dental Tooth</p>
+
+                    <h1 class="banner__left-title">
+                        Безболезненное <br>
+                        лечение зубов
+                    </h1>
+
+                    <p class="banner__left-description">
+                        Талантливая команда стоматологов, признанных за <br>
+                        высокое качество стоматологических процедур.
+                    </p>
+
+                    <a class="banner__left-btn" href="#">Записаться на прием</a>
+                </div>
+
+                <div class="banner__right">
+                    <img class="banner__right-img-doctor" src="images/banner_doctor.png" alt="Изображение девушки доктора">
+
+                    <svg class="banner__right-logo-svg" width="1364" height="1401" viewBox="0 0 1364 1401">
+                        <use href="images/logo.svg#logo_ID">
+                    </svg>
+
+                    <div class="banner__right-background_shine-wrapper">
+                        <img class="banner__right-background_shine" src="images/circle.png" alt="">
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__about">
+        <div class="container">
+            <div class="about__row">
+                <div class="about__left">
+                    <img src="/images/about-img.jpg" alt='Фото из раздела "О нас"'>
+                </div>
+
+                <div class="about__right">
+                    <h2 class="about__right_title default_title">Стоматологическая клиника <br>
+                        <span class="about__right_title-bold">Dental Tooth</span>
+                    </h2>
+
+                    <p class="about__right_discription">
+                        Мы предлагаем широкий спектр стоматологических услуг в общей клинике. 
+                        Вам будет предоставлен комплексный план лечения до начала любых 
+                        стоматологических услуг. Чтобы записаться на прием или узнать больше 
+                        об услугах, доступных в стоматологической клинике, пожалуйста, позвоните по телефону
+                    </p>
+
+                    <div class="about__right_list-wrapper">
+                        <div class="about__right_list-title">Мы предлагаем услуги:</div>
+
+                        <ul>
+                            <li>Отбеливание зубов</li>
+                            <li>Апноэ во сне</li>
+                            <li>Лечение десен </li>
+                            <li>Дизайн улыбки</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__features">
+        <div class="container">
+            <div class="features__row">
+                <div class="features__item features__item_1">
+                    <div class="features__icon_wrapper">
+                        <div class="features__icon_circle-big"></div>
+
+                        <div class="features__icon_circle-small"></div>
+
+                        <svg class="features__icon-svg" width="48" height="48" viewBox="0 0 48 48">
+                            <use href="images/round-the-clock_support.svg#round-the-clock_support_ID"></use>
+                        </svg>
+                    </div>
+
+                    <p class="features__title">
+                        Круглосуточная <br>
+                        поддержка клиентов
+                    </p>
+
+                    <p class="features_description">Чтобы записаться на прием или узнать больше об услугах, доступных </p>
+                </div>
+
+                <div class="features__item features__item_2">
+                    <div class="features__icon_wrapper">
+                        <div class="features__icon_circle-big"></div>
+
+                        <div class="features__icon_circle-small"></div>
+
+                        <svg class="features__icon-svg" width="48" height="48" viewBox="0 0 48 48">
+                            <use href="images/affordable_dental_care.svg#affordable_dental_care_ID"></use>
+                        </svg>
+                    </div>
+
+                    <p class="features__title">
+                        Доступная <br>
+                        стоматологическая помощь
+                    </p>
+
+                    <p class="features_description">Чтобы записаться на прием или узнать больше об услугах, доступных </p>
+                </div>
+
+                <div class="features__item features__item_3">
+                    <div class="features__icon_wrapper">
+                        <div class="features__icon_circle-big"></div>
+
+                        <div class="features__icon_circle-small"></div>
+
+                        <svg class="features__icon-svg" width="48" height="48" viewBox="0 0 48 48">
+                            <use href="images/a_team_of_talented_doctors.svg#a_team_of_talented_doctors_ID"></use>
+                        </svg>
+                    </div>
+
+                    <p class="features__title">
+                        Команда талантливых <br>
+                        врачей
+                    </p>
+
+                    <p class="features_description">Чтобы записаться на прием или узнать больше об услугах, доступных </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__specialists">
+        <div class="container">
+            <div class="specialists__title-wrapper">
+                <h2 class="specialists__title default_title">Наши специалисты</h2>
+
+                <p class="specialists__description">
+                    Мы построили нашу стоматологию на прочных опорах 22 хирургов MDS. 
+                    В нашей команде работают опытные специалисты с многолетним опытом работы.
+                </p>
+            </div>
+
+            <div class="specialists__row">
+                <a href="specialists.html#specialists-page_ID-1" class="specialists__item specialists__item-1">
+                    <div class="specialists__image">
+                        <img src="/images/specialists-1.jpg" alt="Игорь Протопский">
+                    </div>
+
+                    <div class="specialists__name-wrapper">
+                        <p class="specialists__name">Игорь Протопский</p>
+                        <p class="specialists__profession">Стоматолог</p>
+                    </div>
+                </a>
+
+                <a href="specialists.html#specialists-page_ID-2" class="specialists__item specialists__item-2">
+                    <div class="specialists__image">
+                        <img src="/images/specialists-2.jpg" alt="Олег Григоревич">
+                    </div>
+
+                    <div class="specialists__name-wrapper">
+                        <p class="specialists__name">Олег Григоревич</p>
+                        <p class="specialists__profession">Стоматолог</p>
+                    </div>
+                </a>
+
+                <a href="specialists.html#specialists-page_ID-3" class="specialists__item specialists__item-3">
+                    <div class="specialists__image">
+                        <img src="/images/specialists-3.jpg" alt="София Грин">
+                    </div>
+
+                    <div class="specialists__name-wrapper">
+                        <p class="specialists__name">София Грин</p>
+                        <p class="specialists__profession">Стоматолог</p>
+                    </div>
+                </a>
+
+                <a href="specialists.html#specialists-page_ID-4" class="specialists__item specialists__item-4">
+                    <div class="specialists__image">
+                        <img src="/images/specialists-4.jpg" alt="Мария Александровна">
+                    </div>
+
+                    <div class="specialists__name-wrapper">
+                        <p class="specialists__name">Мария Александровна</p>
+                        <p class="specialists__profession">Стоматолог</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__price">
+        <div class="container">
+            <div class="price__wrapper-left">
+                <div class="price__title-wrapper">
+                    <h2 class="price__title default_title">Стоимость <br> лечения от</h2>
+    
+                    <p class="price__subtitle">Доступные цены на каждую процедуру</p>
+                </div>
+
+                <ul class="price__list_wrapper">
+                    <li>
+                        <span>Отбеливание зубов</span>
+                        <span>120$</span>
+                    </li>
+                    <li>
+                        <span>Реставрации</span>
+                        <span>200$</span>
+                    </li>
+                    <li>
+                        <span>Имплантационная стоматология</span>
+                        <span>80$</span>
+                    </li>
+                    <li>
+                        <span>Лечение десен</span>
+                        <span>150$</span>
+                    </li>
+                    <li>
+                        <span>Дизайн улыбки</span>
+                        <span>160$</span>
+                    </li>
+                    <li>
+                        <span>Сознательная седация</span>
+                        <span>200$</span>
+                    </li>
+                    <li>
+                        <span>Апноэ во сне</span>
+                        <span>150$</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="price__wrapper-right">
+            <div class="price__img-right">
+                <img class="section_price_img-4" src="/images/section_price_img-4.png" alt="Рисунок зуба">
+                <img class="section_price_img-3" src="/images/section_price_img-3.png" alt="Рисунок зуба">
+                <img class="section_price_img-2" src="/images/section_price_img-2.png" alt="Рисунок зуба">
+                <img class="section_price_img-1" src="/images/section_price_img-1.png" alt="Рисунок зуба">
+            </div>
+        </div>
+    </section>
+
+    <section class="section__news random-count-wrapper">
+        <div class="container">
+            <h2 class="news__title default_title">Новости Dental Tooth</h2>
+
+            <div class="news__row">
+                <article class="news__item">
+                    <div class="news__thumb">
+                        <img src="/images/section_news_img/news-1.jpg" alt="Миниатюра">
+                    </div>
+
+                    <div class="news__top-line">
+                        <p class="news__date">05 ноября 2022 </p>
+
+                        <p class="news__comments_count">
+                            <strong class="news_count random_count">0</strong> 
+                            <span class="news_comments random_comments">комментариев</span>
+                        </p>
+                    </div>
+
+                    <h3 class="news__item_title">
+                        <a href="blog-single-1.html">Что стоматолог может сделать для ваших зубов?</a>
+                    </h3>
+
+                    <p class="news_description">Мы ежедневно обеспечиваем качественную и оперативную помощь пациентам. И благодаря инновационным...</p>
+
+                    <a href="blog-single-1.html" class="news__read-more-btn">Читать далее</a>
+                </article>
+
+                <article class="news__item">
+                    <div class="news__thumb">
+                        <img src="/images/section_news_img/news-2.jpg" alt="Миниатюра">
+                    </div>
+
+                    <div class="news__top-line">
+                        <p class="news__date">05 ноября 2022 </p>
+
+                        <p class="news__comments_count">
+                            <strong class="news_count random_count">0</strong> 
+                            <span class="news_comments random_comments">комментариев</span>
+                        </p>
+                    </div>
+
+                    <h3 class="news__item_title">
+                        <a href="blog-single-2.html">Как выбрать стоматологию и не ошибиться?</a>
+                    </h3>
+
+                    <p class="news_description">Безусловно, существующая теория позволяет выполнить важные задания по разработке благоприятных перспектив...</p>
+
+                    <a href="blog-single-2.html" class="news__read-more-btn">Читать далее</a>
+                </article>
+
+                <article class="news__item">
+                    <div class="news__thumb">
+                        <img src="/images/section_news_img/news-3.jpg" alt="Миниатюра">
+                    </div>
+
+                    <div class="news__top-line">
+                        <p class="news__date">05 ноября 2022 </p>
+
+                        <p class="news__comments_count">
+                            <strong class="news_count random_count">0</strong> 
+                            <span class="news_comments random_comments">комментариев</span>
+                        </p>
+                    </div>
+
+                    <h3 class="news__item_title">
+                        <a href="blog-single-3.html">Сильно болит зуб? Лечение в домашних условиях</a>
+                    </h3>
+
+                    <p class="news_description">Учитывая ключевые сценарии поведения, выбранный нами инновационный путь напрямую зависит от поставленных...</p>
+
+                    <a href="blog-single-3.html" class="news__read-more-btn">Читать далее</a>
+                </article>
+
+                <article class="news__item">
+                    <div class="news__thumb">
+                        <img src="/images/section_news_img/news-4.jpg" alt="Миниатюра">
+                    </div>
+
+                    <div class="news__top-line">
+                        <p class="news__date">05 ноября 2022 </p>
+
+                        <p class="news__comments_count">
+                            <strong class="news_count random_count">0</strong> 
+                            <span class="news_comments random_comments">комментариев</span>
+                        </p>
+                    </div>
+
+                    <h3 class="news__item_title">
+                        <a href="blog-single-4.html">Как спасти тетрациклиновые зубы?</a>
+                    </h3>
+
+                    <p class="news_description">Но новая модель организационной деятельности прекрасно подходит для реализации распределения...</p>
+
+                    <a href="blog-single-4.html" class="news__read-more-btn">Читать далее</a>
+                </article>
+
+                <article class="news__item">
+                    <div class="news__thumb">
+                        <img src="/images/section_news_img/news-5.jpg" alt="Миниатюра">
+                    </div>
+
+                    <div class="news__top-line">
+                        <p class="news__date">05 ноября 2022 </p>
+
+                        <p class="news__comments_count">
+                            <strong class="news_count random_count">0</strong> 
+                            <span class="news_comments random_comments">комментариев</span>
+                        </p>
+                    </div>
+
+                    <h3 class="news__item_title">
+                        <a href="blog-single-5.html">Как правильно чистить зубы? 15 советов</a>
+                    </h3>
+
+                    <p class="news_description">Неопровержимые выводы, а также акционеры крупнейших компаний являются только методом...</p>
+
+                    <a href="blog-single-5.html" class="news__read-more-btn">Читать далее</a>
+                </article>
+
+                <article class="news__item">
+                    <div class="news__thumb">
+                        <img src="/images/section_news_img/news-6.jpg" alt="Миниатюра">
+                    </div>
+
+                    <div class="news__top-line">
+                        <p class="news__date">05 ноября 2022 </p>
+
+                        <p class="news__comments_count">
+                            <strong class="news_count random_count">0</strong> 
+                            <span class="news_comments random_comments">комментариев</span>
+                        </p>
+                    </div>
+
+                    <h3 class="news__item_title">
+                        <a href="blog-single-6.html">Все что Вы хотели узнать про сознательную седацию</a>
+                    </h3>
+
+                    <p class="news_description">Тщательные исследования конкурентов функционально разнесены на независимые элементы...</p>
+
+                    <a href="blog-single-6.html" class="news__read-more-btn">Читать далее</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectiom__reviews">
+
+        <div class="container">
+            <div class="reviews__wrapper">
+                <div class="reviews__img_quotation-marks_wrapper">
+                    <img src="/images/quotation-marks-img.png" alt="Кавычки рисунок">
+                </div>
+
+                <h2 class="reviews__title">Что говорят наши<br> клиенты</h2>
+
+                <!-- Slider main container -->
+                <div class="swiper reviews__swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="reviews__row">
+                                <div class="reviews__people_avatar">
+                                    <img src="/images/section_reviews/people/reviews_people-1.jpeg" alt="">
+                                </div>
+    
+                                <div class="reviews__content">
+                                    <p class="reviews__text">
+                                        Отличная стоматология. Заболел зуб. Обратилась в эту клинику. 
+                                        Качество обслуживания на высшем уровне. Сделали отбеливание зубов. 
+                                        Все отлично. Однозначно рекомендую.
+                                    </p>
+    
+                                    <div class="reviews__bottom">
+                                        <p class="reviews__name">Алина Беляева</p>
+    
+                                        <div class="reviews__social">
+                                            <div class="reviews__social_svg-bg">
+                                                <svg class="reviews__social_twitter-svg" width="22" height="22" viewBox="0 0 22 22">
+                                                    <use href="/images/icon/twitter.svg#twitter_ID">
+                                                </svg>
+                                            </div>
+    
+                                            <div class="reviews__social_svg-bg">
+                                                <svg class="reviews__social_vk-svg" width="22" height="22" viewBox="0 0 22 22">
+                                                    <use href="/images/icon/vk.svg#vk_ID">
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="reviews__row">
+                                <div class="reviews__people_avatar">
+                                    <img src="/images/section_reviews/people/reviews_people-2.jpeg" alt="">
+                                </div>
+    
+                                <div class="reviews__content">
+                                    <p class="reviews__text">
+                                        Профессиональная клиника с заботливым персоналом. 
+                                        Врачи тщательно объясняют каждую процедуру. 
+                                        Оборудование современное и безопасное. Очень рекомендую!
+                                    </p>
+    
+                                    <div class="reviews__bottom">
+                                        <p class="reviews__name">Галина Миляева</p>
+    
+                                        <div class="reviews__social">
+                                            <div class="reviews__social_svg-bg">
+                                                <svg class="reviews__social_twitter-svg" width="22" height="22" viewBox="0 0 22 22">
+                                                    <use href="/images/icon/twitter.svg#twitter_ID">
+                                                </svg>
+                                            </div>
+    
+                                            <div class="reviews__social_svg-bg">
+                                                <svg class="reviews__social_vk-svg" width="22" height="22" viewBox="0 0 22 22">
+                                                    <use href="/images/icon/vk.svg#vk_ID">
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="reviews__row">
+                                <div class="reviews__people_avatar">
+                                    <img src="/images/section_reviews/people/reviews_people-3.jpeg" alt="">
+                                </div>
+    
+                                <div class="reviews__content">
+                                    <p class="reviews__text">
+                                        Обратилась в эту клинику по рекомендации подруги. Осталась в восторге! 
+                                        Процедуры безболезненны, оборудование на высшем уровне. 
+                                        Врачи - настоящие профессионалы.
+                                    </p>
+    
+                                    <div class="reviews__bottom">
+                                        <p class="reviews__name">Полина Гуряева</p>
+    
+                                        <div class="reviews__social">
+                                            <div class="reviews__social_svg-bg">
+                                                <svg class="reviews__social_twitter-svg" width="22" height="22" viewBox="0 0 22 22">
+                                                    <use href="/images/icon/twitter.svg#twitter_ID">
+                                                </svg>
+                                            </div>
+    
+                                            <div class="reviews__social_svg-bg">
+                                                <svg class="reviews__social_vk-svg" width="22" height="22" viewBox="0 0 22 22">
+                                                    <use href="/images/icon/vk.svg#vk_ID">
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                         <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev swiper-button-prev-base"></div>
+                        <div class="swiper-button-next swiper-button-next-base"></div>    
+                </div> 
+
+                                            <!-- Slider main container -->
+                <div class="swiper reviews__swiper_controller-1">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-button-left"></div>
+                    <div class="swiper-button-next swiper-button-right"></div>
+                </div>
+
+                <div class="swiper reviews__swiper_controller-2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-button-left"></div>
+                    <div class="swiper-button-next swiper-button-right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__form">
+        <div class="container">
+            <div class="form__row">
+                <div class="form__wrapper">
+                    <h3 class="form__title">Записаться на прием</h3>
+
+                    <form class="wpcf7-form init">
+                        <p><span class="wpcf7-form-control-wrap"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Ваше имя" type="text"></span></p>
+                        <p><span class="wpcf7-form-control-wrap"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-phonemask" placeholder="Ваш телефон" type="text" name="phone"></span></p>
+                        <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Записаться на прием"><span class="wpcf7-spinner"></span></p>
+                    </form>
+
+                    <p class="form__agree">Нажимая кнопку, я даю свое согласие на обработку моих персональных данных</p>
+                </div>
+
+                <div class="form__image">
+                    <img src="images/form_doctor.png" alt="Изображение девушки доктора">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__row">
+                <div class="footer__left">
+                    <div class="footer__logo_wrapper">
+                        <a href="" class="footer__logo header__bottom_logo">
+                            <svg class="footer__logo header__bottom_logo-svg" width="1364" height="1401" viewBox="0 0 1364 1401">
+                                <use href="images/logo.svg#logo_ID">
+                            </svg>
+                            <span class="footer__logo header__bottom_logo-text-1">Dental Tooth</span>
+                            <div class="footer__logo header__bottom_logo-blue_line"></div>
+                            <span class="footer__logo header__bottom_logo-text-2">Клиника</span>
+                        </a>
+                    </div>
+    
+                    <div class="footer__info">
+                        <div class="footer__info_item">
+                            <div class="footer__info_location">
+                                <svg class="footer__info_location-svg" width="18" height="23" viewBox="0 0 18 23">
+                                    <use href="images/icon/location.svg#location_ID">
+                                </svg>
+        
+                                <span>ул. Протопского 28А город Алматы</span>
+                            </div>
+        
+                            <a class="footer__info_phone" href="tel:77776544454">
+                                <svg class="footer__info_phone-svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <use href="images/icon/phone.svg#phone_ID">
+                                </svg>
+    
+                                <span>+7 (777) 654 44 54</span>
+                            </a>
+    
+                            <a class="footer__info_email" href="mailto:info@dentaltooth.kz">
+                                <svg class="footer__info_email-svg" width="21" height="16" viewBox="0 0 21 16">
+                                    <use href="images/icon/mail.svg#mail_ID">
+                                </svg>
+    
+                                <span>info@dentaltooth.kz</span>
+                            </a>
+                        </div>
+    
+                        <div class="footer__info_social header__top_social">
+                            <a class="footer__info_twitter header__top_twitter" href="#">
+                                <svg class="header__top_twitter-svg" width="22" height="22" viewBox="0 0 22 22">
+                                    <use href="images/icon/twitter.svg#twitter_ID">
+                                </svg>
+                            </a>
+    
+                            <a class="footer__info_instagram header__top_instagram" href="#">
+                                <svg class="header__top_instagram-svg" width="22" height="22" viewBox="0 0 22 22">
+                                    <use href="images/icon/instagram.svg#instagram_ID">
+                                </svg>
+                            </a>
+    
+                            <a class="footer__info_vk header__top_vk" href="#">
+                                <svg class="header__top_vk-svg" width="22" height="22" viewBox="0 0 22 22">
+                                    <use href="images/icon/vk.svg#vk_ID">
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer__right">
+                    <div class="footer__menu">
+                        <div class="footer__title">Наши услуги</div>
+    
+                        <ul>
+                            <li><a href="">Отбеливание зубов</a></li>
+                            <li><a href="">Лечение десен</a></li>
+                            <li><a href="">Апноэ во сне</a></li>
+                            <li><a href="">Реставрации</a></li>
+                            <li><a href="">Дизайн улыбки</a></li>
+                            <li><a href="">Корневой канал</a></li>
+                            <li><a href="">Имплантационная стоматология</a></li>
+                            <li><a href="">Сознательная седация</a></li>
+                            <li><a href="">Ортодонтия</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__menu">
+                        <div class="footer__title">Наши стоматологи</div>
+    
+                        <ul>
+                            <li><a href="">Игорь Протопский</a></li>
+                            <li><a href="">Олег Григоревич</a></li>
+                            <li><a href="">София Грин</a></li>
+                            <li><a href="">Мария Александровна</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__menu">
+                        <div class="footer__title">Часы работы</div>
+    
+                        <ul>
+                            <li>Понедельник: 8:30 - 9:00</li>
+                            <li>Вторник: 8:00 - 9:00</li>
+                            <li>Среда: 8:00 - 9:00</li>
+                            <li>Четверг: 8:30 - 9:00</li>
+                            <li>Пятница: 10:00 - 4:00</li>
+                            <li>Суббота: выходной</li>
+                            <li>Воскресенье: закрыто</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__copyright">
+            <div class="container">2022 © Dental Tooth <br> Все права защищены</div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/random-count.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
