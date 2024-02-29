@@ -41,10 +41,18 @@
     --popup__bg: #302D2D73;
 }
 
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'SourceSansPro';
     font-weight: 400;
     line-height: normal;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
 }
