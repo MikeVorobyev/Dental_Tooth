@@ -51,10 +51,11 @@ body {
     font-family: 'SourceSansPro';
     font-weight: 400;
     line-height: normal;
+    -webkit-tap-highlight-color: transparent;
+
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    -webkit-tap-highlight-color: transparent;
 }
 
 a {
@@ -4758,3 +4759,18 @@ a {
 
 /* ------------- ADAPTIVE END -------------- */
 
+
+
+
+/* .swiper-button-next-base {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    opacity: 1 !important;
+    z-index: 1000 !important;
+}
+
+
+.reviews__swiper .swiper-button-next-base,
+.reviews__swiper .swiper-button-prev-base {
+    display: flex !important;
+} */

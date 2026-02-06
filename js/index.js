@@ -10,36 +10,75 @@ hamburgerMenuWrapperIcon.addEventListener('click', () => {
     body.classList.toggle('no_scroll');
 })
 
+
+
 // ------------ REVIEWS SWIPER START -------------
 const reviewsSwiper = new Swiper('.reviews__swiper', {
     loop: true,
-    navigation: {
-      nextEl: '.reviews__swiper .swiper-button-next',
-      prevEl: '.reviews__swiper .swiper-button-prev',
-    }
-  });
+    // Убираем стандартную навигацию - будем использовать ВАШИ кнопки
+    // navigation: {} // ЗАКОММЕНТИРОВАТЬ
+});
 
-  const swiperController1 = new Swiper('.reviews__swiper_controller-1', {
+// Создаем контроллеры без кнопок (они нам не нужны для управления)
+const swiperController1 = new Swiper('.reviews__swiper_controller-1', {
     loop: true,
-    navigation: {
-      nextEl: '.reviews__swiper_controller-1 .swiper-button-next',
-      prevEl: '.reviews__swiper_controller-1 .swiper-button-prev',
-    }
-  });
+    // Убираем навигацию у контроллеров
+    allowTouchMove: false,
+    simulateTouch: false
+});
 
-  const swiperController2 = new Swiper('.reviews__swiper_controller-2', {
+const swiperController2 = new Swiper('.reviews__swiper_controller-2', {
     loop: true,
-    navigation: {
-      nextEl: '.reviews__swiper_controller-2 .swiper-button-next',
-      prevEl: '.reviews__swiper_controller-2 .swiper-button-prev',
-    }
-  });
-  
-reviewsSwiper.controller.control = swiperController1;
-swiperController1.controller.control = reviewsSwiper;
-reviewsSwiper.controller.control = swiperController2;
-swiperController2.controller.control = reviewsSwiper;
+    allowTouchMove: false,
+    simulateTouch: false
+});
+
+// Связываем слайдеры для синхронизации слайдов
+reviewsSwiper.controller.control = [swiperController1, swiperController2];
+
+// ======= ВАЖНО: Вешаем обработчики на ВАШИ кнопки =======
+document.querySelector('.reviews__swiper_controller-1 .swiper-button-left').addEventListener('click', () => {
+    console.log('← ВАША кнопка "назад"');
+    reviewsSwiper.slidePrev();
+});
+
+document.querySelector('.reviews__swiper_controller-2 .swiper-button-right').addEventListener('click', () => {
+    console.log('→ ВАША кнопка "вперед"');
+    reviewsSwiper.slideNext();
+});
 // ------------- REVIEWS SWIPER END --------------
+
+
+// // ------------ REVIEWS SWIPER START -------------
+// const reviewsSwiper = new Swiper('.reviews__swiper', {
+//     loop: true,
+//     navigation: {
+//       nextEl: '.reviews__swiper .swiper-button-next',
+//       prevEl: '.reviews__swiper .swiper-button-prev',
+//     }
+//   });
+
+//   const swiperController1 = new Swiper('.reviews__swiper_controller-1', {
+//     loop: true,
+//     navigation: {
+//       nextEl: '.reviews__swiper_controller-1 .swiper-button-next',
+//       prevEl: '.reviews__swiper_controller-1 .swiper-button-prev',
+//     }
+//   });
+
+//   const swiperController2 = new Swiper('.reviews__swiper_controller-2', {
+//     loop: true,
+//     navigation: {
+//       nextEl: '.reviews__swiper_controller-2 .swiper-button-next',
+//       prevEl: '.reviews__swiper_controller-2 .swiper-button-prev',
+//     }
+//   });
+  
+// reviewsSwiper.controller.control = swiperController1;
+// swiperController1.controller.control = reviewsSwiper;
+// reviewsSwiper.controller.control = swiperController2;
+// swiperController2.controller.control = reviewsSwiper;
+// // ------------- REVIEWS SWIPER END --------------
 
 
 /* ===========   magnific-popup START   ======= */    /* Тут используется JQuery */
